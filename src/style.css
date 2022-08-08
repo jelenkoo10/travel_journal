@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Inria Serif', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #B4CDED;
+}
+
+
+/* Navbar */
+.nav {
+    background-color: #344966;
+    color: #F0F4EF;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.nav h2 {
+    margin: 0;
+    font-size: .8em;
+}
+
+/* Travel card settings */
+.card {
+    display: flex;
+    padding: 1.5em;
+    margin: .5em auto;
+    width: 85%;
+}
+
+.card-photo {
+    width: 25%;
+    border-radius: .75em;
+}
+
+.card-desc {
+    width: 70%;
+    margin-left: 1em;
+}
+
+.card-loc {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 1em;
+    letter-spacing: .2em;
+}
+
+.card-maps {
+    color: #0D1821;
+    font-size: 0.9em;
+}
+
+.card-title {
+    margin-top: 0.2em;
+}
+
+.card-par {
+    margin-top: .3em; 
+}
+
+/* Media queries */
+@media screen and (max-width: 1070px) {
+    .card-photo {
+        width: 40%;
+    }
+    .card-desc {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .card {
+        width: 100%;
+        margin-left: 25%;
+        flex-direction: column;
+    }
+    .card-desc {
+        margin-left: 0;
+    }
+}
