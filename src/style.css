@@ -84,3 +84,20 @@ body {
         margin-left: 0;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .card {
+        width: 100%;
+        margin: .5em auto;
+        align-items: center;
+    }
+
+    .card-desc {
+        width: 80%;
+        margin-top: .75em;
+    }
+
+    .card-photo {
+        width: 80%;
+    }
+}
