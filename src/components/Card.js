@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Card(props) {
     return (
-        <div className="card">
+        <section className="card">
             <img className="card-photo" src={props.item.imageUrl} alt={`Photo of ${props.item.location}`} />
             <div className="card-desc">
                 <div>
@@ -14,7 +14,7 @@ export default function Card(props) {
                 <p className="card-par">{props.item.description}</p>
             </div>
             <hr />
-        </div>
+        </section>
     )
 }
 

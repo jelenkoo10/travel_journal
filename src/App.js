@@ -7,7 +7,7 @@ import "./style.css"
 export default function App() {
     const item = Data
     return (
-        <div>
+        <main>
             <Nav />
             <Card 
             item={item[0]} />
@@ -23,7 +23,7 @@ export default function App() {
 
             <Card 
             item={item[4]} />
-        </div>
+        </main>
     )
     
 }
