@@ -28,7 +28,7 @@ Desktop and mobile design of Travel Journal.
 
 ### Links
 
-- Live Site URL: [Travel Journal](https://https://jelenkoo10.github.io/travel_journal/)
+- Live Site URL: [Travel Journal](https://jelenkoo10.github.io/travel_journal/)
 
 ## Process
 
