@@ -22,9 +22,9 @@ Users should be able to:
 
 Desktop and mobile design of Travel Journal.
 
-![](./images/screenshot1.jpg)
+![](./src/images/screenshot1.jpg)
 
-![](./images/screenshot2.jpg)
+![](./src/images/screenshot2.jpg)
 
 ### Links
 
